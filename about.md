@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey there, This is Theshy521's blog. Sincerely hope you can have a fun!!
 
 ### More Information
 
