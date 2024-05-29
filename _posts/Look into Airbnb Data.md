@@ -5,7 +5,9 @@ title: Look into Airbnb data with Seattle and Boston.
 
 # Introduction
 Airbnb is an online marketplace that connects people looking to rent out their homes or accommodations to travelers looking for lodging. It allows individuals to list their properties and for travelers to book those properties for short-term stays.
+
 ![Airbnb](/images/airbnb.jpeg)
+
 Therefore, I used data from Kaggle's Airbnb Seattle and Boston data.
 1. Seattle
 Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA.
