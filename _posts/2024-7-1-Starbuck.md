@@ -65,14 +65,14 @@ And also preprocessed for some columns, especially, split the value with offer_i
 
 ###	Exploratory Visualization
 Explore the dataset and verify above pre-defined question with visualization:
-Profile:
+Profile: /n
 ![Profile_age](/images/profile_age.PNG)
 ![Profile_gender](/images/profile_gender.PNG)
 ![Profile_become1](/images/profile_become.PNG)
 ![Profile_become2](/images/profile_become_proportion.PNG)
    
 
-Transcript & Profile & Portfolio combined dataset:
+Transcript & Profile & Portfolio combined dataset: /n
 ![ratio](/images/df_ratio.PNG)   
 ![df_gender](/images/df_gender.PNG)
    
