@@ -67,22 +67,21 @@ And also preprocessed for some columns, especially, split the value with offer_i
 Explore the dataset and verify above pre-defined question with visualization:
 Profile:
 ![Profile_age](/images/profile_age.PNG)
-![Profile_age](/images/profile_age.jpeg)
-![Profile_gender](/images/profile_gender.png)
-![Profile_become1](/images/profile_become.png)
-![Profile_become2](/images/profile_become_proportion.png)
+![Profile_gender](/images/profile_gender.PNG)
+![Profile_become1](/images/profile_become.PNG)
+![Profile_become2](/images/profile_become_proportion.PNG)
    
 
 Transcript & Profile & Portfolio combined dataset:
-![ratio](/images/df_ratio.png)   
-![df_gender](/images/df_gender.png)
+![ratio](/images/df_ratio.PNG)   
+![df_gender](/images/df_gender.PNG)
    
 
 After sampling target dataset for AI modeling total 44K :
-![df_label](/images/df_label.png)
-![df_info](/images/df_info.png)
-![df_become](/images/df_become.png)
-![df_offertype](/images/df_offertype.png)
+![df_label](/images/df_label.PNG)
+![df_info](/images/df_info.PNG)
+![df_become](/images/df_become.PNG)
+![df_offertype](/images/df_offertype.PNG)
 
 ###	Algorithms and Techniques
 For this binary project, I proposal LogisticRegression and RandomForest algorithms for further modeling.
@@ -90,22 +89,22 @@ For this binary project, I proposal LogisticRegression and RandomForest algorith
 ###	Benchmark
 
 Basically, I have trained LogisticRegression AI model on train dataset, the precision is 62%.
-Additionally, I have iterated AI model with tree based RandomForest AI model with same train dataset. Based on the comparation with highlighted precision metrics, iterated AI model achieved 69% precision. I means XGBoost AI model got better performance. It means when AI model says it is positive samples, 69% is positive samples, the proportion of positive and negative is almost  1 : 1, so 69% precision is higher than the default.
+Additionally, I have iterated AI model with tree based RandomForest AI model with same train dataset. Based on the comparation with highlighted precision metrics, iterated AI model achieved 69% precision. I means RandomForest AI model got better performance. It means when AI model says it is positive samples, 69% is positive samples, the proportion of positive and negative is almost  1 : 1, so 69% precision is higher than the default.
 LR
-![lr_train](/images/lr_train.png)
+![lr_train](/images/lr_train.PNG)
 
 RandomForest
-![rfc_train](/images/rfc_train.png)
+![rfc_train](/images/rfc_train.PNG)
 
  
 # 3) Implement
 ###	Data Preprocessing
 I have completed to preprocess the dataset including, split offer id and value, get amount of transaction and verify the anomalous value for numeric columns age and income, onehot encoding for category columns: gender and offer type, and also labeling the target value with specific logic. 
-![df_process](/images/df_process.png)
-![df_process](/images/df_process_v1.png)
+![df_process](/images/df_process.PNG)
+![df_process](/images/df_process_v1.PNG)
 
-![df_age](/images/df_age.png)
-![df_income](/images/df_income.png)
+![df_age](/images/df_age.PNG)
+![df_income](/images/df_income.PNG)
 
 
 ###	Implementation
@@ -114,24 +113,24 @@ I have trained AI model with LogisticRegression and RandomForest algorithm with 
 
 ###	Refinement
 Based on the result exploration with LogisticRegression algorithm on training dataset the precision is 62%,  and iterate it with RandomForest and hyparameter tuning on same training datasets, the precision is achieved 69% .
-![rfc_hyper](/images/rfc_hyper.png)
+![rfc_hyper](/images/rfc_hyper.PNG)
 	 
 # 4) Results:
 
 ###	Model Evaluation and Validation
-![df_score](/images/evaluation_score.png)
-![df_roc](/images/roc.png)
-![df_pr](/images/pr.png)
-![df_confusion](/images/evaluation_confusion.png)
-![df_feature](/images/feature_importance.png)
+![df_score](/images/evaluation_score.PNG)
+![df_roc](/images/roc.PNG)
+![df_pr](/images/pr.PNG)
+![df_confusion](/images/evaluation_confusion.PNG)
+![df_feature](/images/feature_importance.PNG)
   
 
 ###	Justificatiion
 Benchmark AI Model:
-![df_income](/images/lr_train.png)
+![df_income](/images/lr_train.PNG)
  
 Iterated AI Model:
-![df_income](/images/rfc_train.png) 
+![df_income](/images/rfc_train.PNG) 
 
 # 5) Conclusion
 •	The customers that more completed profiles are more likely to consume starbucks
@@ -140,6 +139,6 @@ offers.
 •	The customers that became member after 2015 are more likely to consume
 starbucks offers.
 •	Discount offer is more popular offer
-•	Based on the exploration with feature importances, difficulty &
-became_member_year & duration are the top 3 important features.
+•	Based on the exploration with feature importances, 
+became_member_year & difficulty & income are the top 3 important features.
 
