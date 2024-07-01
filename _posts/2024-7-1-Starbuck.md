@@ -1,4 +1,4 @@
-![image](https://github.com/theshy521/theshy521.github.io/assets/71619472/12bda20f-0fa5-4a83-a381-e891bccb41f5)---
+---
 layout: post
 title: Look into Starbucks Project
 ---
@@ -78,8 +78,8 @@ Transcript & Profile & Portfolio combined dataset:
    
 
 After sampling target dataset for AI modeling total 44K :
-![label](/images/df_label.png)
-![info](/images/df_info.png)
+![df_label](/images/df_label.png)
+![df_info](/images/df_info.png)
 ![df_become](/images/df_become.png)
 ![df_offertype](/images/df_offertype.png)
 
