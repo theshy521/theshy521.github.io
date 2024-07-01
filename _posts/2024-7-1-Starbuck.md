@@ -72,7 +72,7 @@ Profile:
 ![Profile_become2](/images/profile_become_proportion.PNG)   
    
 
-Transcript & Profile & Portfolio combined dataset:
+Transcript & Profile & Portfolio combined dataset:   
 ![ratio](/images/df_ratio.PNG)  
 ![df_gender](/images/df_gender.PNG)  
    
