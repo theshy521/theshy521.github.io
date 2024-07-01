@@ -89,7 +89,7 @@ For this binary project, I proposal LogisticRegression and RandomForest algorith
 ###	Benchmark
 
 Basically, I have trained LogisticRegression AI model on train dataset, the precision is 62%.
-Additionally, I have iterated AI model with tree based RandomForest AI model with same train dataset. Based on the comparation with highlighted precision metrics, iterated AI model achieved 69% precision. I means RandomForest AI model got better performance. It means when AI model says it is positive samples, 69% is positive samples, the proportion of positive and negative is almost  1 : 1, so 69% precision is higher than the default.
+Additionally, I have iterated AI model with tree based RandomForest AI model with same train dataset. Based on the comparation with highlighted precision metrics, iterated AI model achieved 69% precision. I means RandomForest AI model got better performance. It means when AI model says it is positive samples, 69% is positive samples, the proportion of positive and negative is almost  1 : 1, so 69% precision is higher than the default.   
 LR  
 ![lr_train](/images/lr_train.PNG)  
 
@@ -99,7 +99,7 @@ RandomForest
  
 # 3) Implement
 ###	Data Preprocessing
-I have completed to preprocess the dataset including, split offer id and value, get amount of transaction and verify the anomalous value for numeric columns age and income, onehot encoding for category columns: gender and offer type, and also labeling the target value with specific logic. 
+I have completed to preprocess the dataset including, split offer id and value, get amount of transaction and verify the anomalous value for numeric columns age and income, onehot encoding for category columns: gender and offer type, and also labeling the target value with specific logic.    
 ![df_process](/images/df_process.PNG)  
 ![df_process](/images/df_process_v1.PNG)  
 ![df_age](/images/df_age.PNG)  
@@ -111,12 +111,12 @@ I have trained AI model with LogisticRegression and RandomForest algorithm with 
 
 
 ###	Refinement
-Based on the result exploration with LogisticRegression algorithm on training dataset the precision is 62%,  and iterate it with RandomForest and hyparameter tuning on same training datasets, the precision is achieved 69% .
+Based on the result exploration with LogisticRegression algorithm on training dataset the precision is 62%,  and iterate it with RandomForest and hyparameter tuning on same training datasets, the precision is achieved 69% .   
 ![rfc_hyper](/images/rfc_hyper.PNG)  
 	 
 # 4) Results:
 
-###	Model Evaluation and Validation
+###	Model Evaluation and Validation   
 ![df_score](/images/evaluation_score.PNG)  
 ![df_roc](/images/roc.PNG)  
 ![df_pr](/images/pr.PNG)  
@@ -125,10 +125,10 @@ Based on the result exploration with LogisticRegression algorithm on training da
   
 
 ###	Justificatiion
-Benchmark AI Model:
+Benchmark AI Model:   
 ![df_income](/images/lr_train.PNG)  
  
-Iterated AI Model:
+Iterated AI Model:   
 ![df_income](/images/rfc_train.PNG)  
 
 # 5) Conclusion
