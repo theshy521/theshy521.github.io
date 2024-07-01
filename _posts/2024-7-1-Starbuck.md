@@ -132,12 +132,12 @@ Iterated AI Model:
 ![df_income](/images/rfc_train.PNG)  
 
 # 5) Conclusion
-•	The customers that more completed profiles are more likely to consume starbucks
+1. The customers that more completed profiles are more likely to consume starbucks
 offers.
-•	Woman are more likely to consume starbucks offer
-•	The customers that became member after 2015 are more likely to consume
+2. Woman are more likely to consume starbucks offer
+3. The customers that became member after 2015 are more likely to consume
 starbucks offers.
-•	Discount offer is more popular offer
-•	Based on the exploration with feature importances, 
+4. Discount offer is more popular offer
+5. Based on the exploration with feature importances, 
 became_member_year & difficulty & income are the top 3 important features.
 
