@@ -118,10 +118,10 @@ Based on the result exploration with LogisticRegression algorithm on training da
 
 ###	Model Evaluation and Validation   
 ![df_score](/images/evaluation_score.PNG)  
-![df_roc](/images/roc.PNG)  
-![df_pr](/images/pr.PNG)  
+![df_roc](/images/roc.png)  
+![df_pr](/images/pr.png)  
 ![df_confusion](/images/evaluation_confusion.PNG)  
-![df_feature](/images/feature_importance.PNG)  
+![df_feature](/images/feature_importance.png)  
   
 
 ###	Justificatiion
