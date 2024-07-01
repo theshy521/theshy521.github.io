@@ -67,6 +67,7 @@ And also preprocessed for some columns, especially, split the value with offer_i
 Explore the dataset and verify above pre-defined question with visualization:
 Profile:
 ![Profile_age](/images/profile_age.png)
+![Profile_age](/images/profile_age.jpeg)
 ![Profile_gender](/images/profile_gender.png)
 ![Profile_become1](/images/profile_become.png)
 ![Profile_become2](/images/profile_become_proportion.png)
