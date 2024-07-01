@@ -66,10 +66,10 @@ And also preprocessed for some columns, especially, split the value with offer_i
 ###	Exploratory Visualization
 Explore the dataset and verify above pre-defined question with visualization:
 Profile:  
-![Profile_age](/images/profile_age.PNG)  
-![Profile_gender](/images/profile_gender.PNG)  
-![Profile_become1](/images/profile_become.PNG)  
-![Profile_become2](/images/profile_become_proportion.PNG)  
+![Profile_age](/images/profile_age.PNG)   
+![Profile_gender](/images/profile_gender.PNG)   
+![Profile_become1](/images/profile_become.PNG)   
+![Profile_become2](/images/profile_become_proportion.PNG)   
    
 
 Transcript & Profile & Portfolio combined dataset:
@@ -90,10 +90,10 @@ For this binary project, I proposal LogisticRegression and RandomForest algorith
 
 Basically, I have trained LogisticRegression AI model on train dataset, the precision is 62%.
 Additionally, I have iterated AI model with tree based RandomForest AI model with same train dataset. Based on the comparation with highlighted precision metrics, iterated AI model achieved 69% precision. I means RandomForest AI model got better performance. It means when AI model says it is positive samples, 69% is positive samples, the proportion of positive and negative is almost  1 : 1, so 69% precision is higher than the default.
-LR
+LR  
 ![lr_train](/images/lr_train.PNG)  
 
-RandomForest
+RandomForest  
 ![rfc_train](/images/rfc_train.PNG)  
 
  
